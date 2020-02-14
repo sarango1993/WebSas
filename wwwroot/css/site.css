@@ -3,6 +3,9 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
+    background-color: #565A57;
+    color: white;
 }
 
 /* Wrapping element */
@@ -34,4 +37,80 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+
+/********************************************** ESTILOS PROPIOS *****************************************************/
+
+#presentacion {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+    #presentacion img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        min-height: 250px;
+        border-radius: 50%;
+    }
+
+#acerca {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 24px 27px 27px 24px;
+}
+
+#card_1 {
+    border-bottom: 4px solid rgba(0, 255, 232, 0.5);
+    background-color: rgba(0, 255, 232, 0.1);
+}
+
+#card_2 {
+    border-bottom: 4px solid rgba(0, 106, 232, 0.5);
+    background-color: rgba(0, 56, 198, 0.1);
+}
+
+#card_3 {
+    border-bottom: 4px solid rgba(208, 41, 1, 0.5);
+    background-color: rgba(208, 41, 1, 0.1);
+}
+
+#card_4 {
+    border-bottom: 4px solid rgba(190, 179, 19, 0.5);
+    background-color: rgba(190, 179, 19, 0.1);
+}
+
+#habilidades {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#lenguajes {
+    height: 185px;
+    background-color: #F7695B;
+}
+
+#educacion {
+    height: 185px;
+    background-color: #FAA6FA;
+}
+
+#portafolio {
+    height: 185px;
+    background-color: #5BF7B5;
+}
+
+#experiencia {
+    height: 185px;
+    background-color: #705BF7;
+}
+
+#contacto {
+    height: 185px;
+    background-color: #44F360;
 }

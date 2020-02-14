@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebSas</title>
+    <title>@ViewData["Title"] - PlatziWebsite</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -14,6 +14,7 @@
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </environment>
 </head>
 <body>
@@ -26,25 +27,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">WebSas</a>
+                <!--<a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Santiago Serna</a>-->
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">INICIO</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">ACERCA DE</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">MIS HABILIDADES</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">LENGUAJES</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">EDUCACIÓN</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">PORTAFOLIO</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">EXPERIENCIA</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">CONTACTO</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <partial name="_CookieConsentPartial" />
-
+    @RenderBody()
     <div class="container body-content">
-        @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2020 - WebSas</p>
+            <p>&copy; 2020 - PlatziWebsite</p>
         </footer>
     </div>
 
@@ -67,6 +72,7 @@
                 integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
+        
     </environment>
 
     @RenderSection("Scripts", required: false)
