@@ -5,7 +5,7 @@ for details on configuring this project to bundle and minify static web assets. 
     padding-bottom: 20px;
     text-align: center;
     background-color: #565A57;
-    color: white;
+    color: black;
 }
 
  /*Wrapping element 
@@ -39,7 +39,7 @@ for details on configuring this project to bundle and minify static web assets. 
     }
 }*/
 
-********************************************* ESTILOS PROPIOS ****************************************************
+/********************************************* ESTILOS PROPIOS *****************************************************/
 
 #presentacion {
     padding-top: 30px;
