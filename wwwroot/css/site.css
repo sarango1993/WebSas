@@ -1,14 +1,14 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
-/*body {
+#principal {
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
     background-color: #565A57;
     color: white;
-}*/
+}
 
- Wrapping element 
+ /*Wrapping element 
  Set some basic padding to keep content from hitting the edges 
 .body-content {
     padding-left: 15px;
@@ -37,11 +37,11 @@ for details on configuring this project to bundle and minify static web assets. 
     .carousel-caption {
         display: none;
     }
-}
+}*/
 
 ********************************************* ESTILOS PROPIOS ****************************************************
 
-/*#presentacion {
+#presentacion {
     padding-top: 30px;
     padding-bottom: 25px;
     text-align: center;
@@ -113,9 +113,9 @@ for details on configuring this project to bundle and minify static web assets. 
 #contacto {
     height: 185px;
     background-color: #44F360;
-}*/
+}
 /**********************************************************/
-.principal {
+#secundario {
     background-color: #4F4F4F;
     color: white;
     text-align: center;
