@@ -1,0 +1,190 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+#principal {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #565A57;
+    color: white;
+}
+
+ /*Wrapping element 
+ Set some basic padding to keep content from hitting the edges 
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ Carousel 
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+ Make .svg files in the carousel display properly in older browsers 
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+ QR code generator 
+#qrCode {
+    margin: 15px;
+}
+
+ Hide/rearrange for smaller screens 
+@media screen and (max-width: 767px) {
+     Hide captions 
+    .carousel-caption {
+        display: none;
+    }
+}*/
+
+********************************************* ESTILOS PROPIOS ****************************************************
+
+#presentacion {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+    #presentacion img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        min-height: 250px;
+        border-radius: 50%;
+    }
+
+#acerca {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 24px 27px 27px 24px;
+}
+
+#card_1 {
+    border-bottom: 4px solid rgba(0, 255, 232, 0.5);
+    background-color: rgba(0, 255, 232, 0.1);
+}
+
+#card_2 {
+    border-bottom: 4px solid rgba(0, 106, 232, 0.5);
+    background-color: rgba(0, 56, 198, 0.1);
+}
+
+#card_3 {
+    border-bottom: 4px solid rgba(208, 41, 1, 0.5);
+    background-color: rgba(208, 41, 1, 0.1);
+}
+
+#card_4 {
+    border-bottom: 4px solid rgba(190, 179, 19, 0.5);
+    background-color: rgba(190, 179, 19, 0.1);
+}
+
+#habilidades {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#lenguajes {
+    height: 185px;
+    background-color: #F7695B;
+}
+
+#educacion {
+    height: 185px;
+    background-color: #FAA6FA;
+}
+
+#portafolio {
+    height: 185px;
+    background-color: #5BF7B5;
+}
+
+#experiencia {
+    height: 185px;
+    background-color: #705BF7;
+}
+
+#contacto {
+    height: 185px;
+    background-color: #44F360;
+}
+/**********************************************************/
+#secundario {
+    background-color: #4F4F4F;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+#foto-perfil {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 50%;
+    border: 4px solid #3896F3;
+}
+
+.container {
+    padding: 30px 20px;
+}
+
+#card_1 {
+    background-color: rgba(208, 41, 1, 0.1);
+    border-bottom: 4px solid rgba(208, 41, 1, 0.5);
+    margin-top: 30px
+}
+
+#card_2 {
+    background-color: rgba(234, 198, 1, 0.1);
+    border-bottom: 4px solid rgba(234, 198, 1, 0.5);
+    margin-top: 30px
+}
+
+#card_3 {
+    background-color: rgba(56, 119, 255, 0.1);
+    border-bottom: 4px solid rgba(56, 119, 255, 0.5);
+    margin-top: 30px
+}
+
+#card_4 {
+    background-color: rgba(56, 255, 97, 0.1);
+    border-bottom: 4px solid rgba(56, 255, 97, 0.5);
+    margin-top: 30px
+}
+
+#progresos {
+    margin-top: 80px;
+    margin-bottom: 20px
+}
+
+#lenguajes img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px
+}
+
+.contenidoEducacion {
+    background-color: rgba(56, 41, 231, 0.3);
+    padding: 20px 16px;
+    margin: 25px 25px 15px 15px;
+}
+
+#educacion img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px border-radius: 50%;
+}
