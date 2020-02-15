@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\sql.programador3\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sql.programador3\\.nuget\\packages",
+      "C:\\Users\\skail\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\skail\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

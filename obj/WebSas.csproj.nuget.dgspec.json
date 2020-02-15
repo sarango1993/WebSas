@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sql.programador3\\source\\repos\\sarango1993\\WebSas\\WebSas.csproj": {}
+    "C:\\Users\\skail\\Documents\\WebSas\\WebSas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sql.programador3\\source\\repos\\sarango1993\\WebSas\\WebSas.csproj": {
+    "C:\\Users\\skail\\Documents\\WebSas\\WebSas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sql.programador3\\source\\repos\\sarango1993\\WebSas\\WebSas.csproj",
+        "projectUniqueName": "C:\\Users\\skail\\Documents\\WebSas\\WebSas.csproj",
         "projectName": "WebSas",
-        "projectPath": "C:\\Users\\sql.programador3\\source\\repos\\sarango1993\\WebSas\\WebSas.csproj",
-        "packagesPath": "C:\\Users\\sql.programador3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sql.programador3\\source\\repos\\sarango1993\\WebSas\\obj\\",
+        "projectPath": "C:\\Users\\skail\\Documents\\WebSas\\WebSas.csproj",
+        "packagesPath": "C:\\Users\\skail\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skail\\Documents\\WebSas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sql.programador3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\skail\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
