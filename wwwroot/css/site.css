@@ -1,5 +1,5 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
-for details on configuring this project to bundle and minify static web assets. */
+﻿ /*Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. 
 #principal {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -8,7 +8,7 @@ for details on configuring this project to bundle and minify static web assets. 
     color: black;
 }
 
- /*Wrapping element 
+ Wrapping element 
  Set some basic padding to keep content from hitting the edges 
 .body-content {
     padding-left: 15px;
@@ -37,9 +37,9 @@ for details on configuring this project to bundle and minify static web assets. 
     .carousel-caption {
         display: none;
     }
-}*/
+}
 
-/********************************************* ESTILOS PROPIOS *****************************************************/
+******************************************** ESTILOS PROPIOS ****************************************************
 
 #presentacion {
     padding-top: 30px;
@@ -114,7 +114,7 @@ for details on configuring this project to bundle and minify static web assets. 
     height: 185px;
     background-color: #44F360;
 }
-/**********************************************************/
+********************************************************
 #secundario {
     background-color: #4F4F4F;
     color: white;
@@ -187,4 +187,4 @@ p {
     max-width: 100px;
     margin-top: 30px;
     margin-bottom: 15px border-radius: 50%;
-}
+}*/
