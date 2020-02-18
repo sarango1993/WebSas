@@ -11801,11 +11801,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\sql.programador9\\source\\repos\\sarango1993\\WebSas\\WebSas.csproj",
       "projectName": "WebSas",
       "projectPath": "C:\\Users\\sql.programador9\\source\\repos\\sarango1993\\WebSas\\WebSas.csproj",
       "packagesPath": "C:\\Users\\sql.programador9\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sql.programador9\\source\\repos\\sarango1993\\WebSas\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\sql.programador9\\Downloads\\WebSas\\WebSas.csproj",
+      "projectName": "WebSas",
+      "projectPath": "C:\\Users\\sql.programador9\\Downloads\\WebSas\\WebSas.csproj",
+      "packagesPath": "C:\\Users\\sql.programador9\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sql.programador9\\Downloads\\WebSas\\obj\\",
+>>>>>>> 38a1bda089956231d48959287db8ff1f7d34391b
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
